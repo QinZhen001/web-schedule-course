@@ -1,0 +1,93 @@
+﻿@charset "utf-8";body{width:100%;height:100%;margin:0 auto;font:12px "\5B8B\4F53";position:relative; background:#fff url(../Images/body_bg.jpg) repeat-x left top} 
+span,ul,li,h1,h2,h3,h4,form,img{margin:0;padding:0;border:none}
+ul,li{list-style-type:none}
+select,textarea{outline:none;border:none;margin:0;padding:0}
+.wyb{ width:100%}
+textarea{resize:none}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;font: 0;}
+a{text-decoration:none;color:#000} 
+a:hover{color:#cf5100}
+a:active,a:focus{outline:none}
+.clear{clear:both;font-size:0px;height:0px}
+a{blr:expression(this.onFocus=this.blur())}
+.gl{ color:#f00 !important}
+.fl{float:left} .fr{float:right}
+.more{ float:right}
+.header{ height:32px; width:100%; background:url(../Images/header_bg.jpg) no-repeat center; padding-top:188px}
+.content{ margin:0 auto}
+.nav{ height:32px; position:relative; width:980px}
+.first{ padding:0 54px !important}
+.nav li{ float:left; height:32px; position:relative}
+.nav li a{ float:left; display:block; font:bold 14px/32px "\5FAE\8F6F\96C5\9ED1"; padding:0 22px; color:#fff}
+.n-box{ width:976px; background:url(../Images/center.jpg) repeat-y;margin:0 auto}
+.left-box{ width:214px; float:left; padding:15px 19px}
+.s_bottom{ width:976px; height:16px; background:url(../Images/bottom_bg.jpg); margin:0 auto}
+.s_top{ width:976px; height:18px; background:url(../Images/top_bg.jpg); margin:10px auto 0 auto}
+.tytitle{ width:200px; height:32px; background:url(../Images/hs_bg.jpg); font:bold 14px/32px "宋体"; padding-left:14px}
+.time2{ display:block; font:bold 14px/24px "宋体"; color:#db0c12}
+.notic{ padding:10px 0}
+.notic li{ background:url(../Images/sj.jpg) no-repeat 5px 8px; padding-left:15px}
+.notic a{ line-height:20px}
+.notic .txt{ color:#7f7f7f; line-height:20px}
+.b-box{ width:700px; float:right; padding:15px 10px 0 10px}
+.banner{width:300px; height:253px; background:url(../Images/banner.jpg); float:left; padding:12px 12px 0 12px;}
+.big-pic{ position:relative; overflow:hidden;width:300px; height:253px}
+.big-pic ul{position:absolute;top:0px;left:0px}
+.big-pic li{float:left;position:relative;width:300px;height:210px;overflow:hidden;color:#000;}
+.pic-title{ position:absolute; bottom:3px;  left:0; width:100%}
+.pic-title a{line-height:40px; font-weight:bold; text-align:center; display:block; height:40px; overflow:hidden}
+.small-pic {bottom: 45px;height: 8px;overflow: hidden; position: absolute;right: 0;width: 198px; z-index: 10;}
+.small-pic ul {float: right; position:relative !important}
+.small-pic li {background: url(../Images/baidian.png) no-repeat scroll left bottom transparent;display: block;float: left;font-size: 0;height: 8px;
+margin: 0 5px;width: 8px;}
+.small-pic li.small-hover {background: url(../Images/huangdian.png) no-repeat scroll 0 0 transparent;float: left;height: 8px;width: 8px;}
+.b-box .news{ width:345px; float:left; margin-left:15px; display:inline; }
+.ali{border-bottom:1px dotted #999; margin-bottom:5px}
+.b-box .news ul{ margin-bottom:10px}
+.b-box .news .afirst{color:#104193; font:17px/30px "微软雅黑"; display:block; text-align:center; overflow:hidden; height:30px}
+.b-box .news .txt{ color:#7f7f7f; line-height:20px; padding-bottom:8px}
+.b-box .news li{ background:url(../Images/fk.jpg) no-repeat left center; padding-left:10px}
+.b-box .news li a{ line-height:24px}
+.search-box{ width:976px; height:68px; margin:10px auto}
+.search-box .search{ width:206px; height:23px; background:url(../Images/search_bg.jpg); float:left; padding:22px 18px}
+.search .wb{ float:left; width:172px; height:20px; background:url(../Images/input_bg.jpg); padding:1px 2px 0 3px; line-height:20px; border:none}
+.search .btn{ width:23px; height:22px; background:url(../Images/btn_bg.jpg); border:none}
+.dt{ float:right; line-height:24px; color:#999}
+.lxwm{ line-height:20px}
+.link{ margin-top:10px}
+.link a{ line-height:24px}
+.right-box{ width:722px; float:right}
+.jj-box{ width:300px; float:left; padding:0 30px 10px 30px; border-right:1px solid #dcdcdc}
+.ns-tit{ width:285px; height:36px; background:url(../Images/ns_bg.jpg) no-repeat center; padding-left:15px;font:bold 14px/32px "宋体"; color:#fff}
+.jjpic{ width:260px; height:98px; padding:4px; border:1px solid #ccc; margin:10px auto}
+.jjtxt{ line-height:24px; width:260px; margin:0 auto}
+.rczp{width:300px; float:left; padding:0 30px 100px 30px; background:url(../Images/book.jpg) no-repeat 36px bottom; position:relative}
+.rczp ul{ padding:10px 6px}
+.rczp li{ background:url(Images/fk.jpg) no-repeat left center; padding-left:10px}
+.rczp li a{ line-height:24px}
+.footer{ height:96px; width:100%; background:url(../Images/footer_bg.jpg) repeat-x left bottom}
+.num{ width:980px; height:96px; background:url(../Images/ft_bg.jpg) no-repeat left top; margin:0 auto}
+.num p{ margin:0; line-height:30px}
+.main_bg{ width:976px; margin:0 auto; background:url(../Images/main_bg.png) repeat-y}
+.m_left{ width:179px; float:left; background:url(../Images/left_bg.jpg) no-repeat left top; min-height:400px; height:400px; padding:20px 30px}
+.lm_tit{ color:#fff; font-size:14px; line-height:36px; font-weight:bold}
+.sub li{ margin:5px 0}
+.sub a{ width:140px; height:31px; background:url(../Images/ny_bg.png) no-repeat center; display:block; line-height:31px; padding-left:36px}
+.sub a:hover,.sub a.act2{ color:#cf5100}
+.m_right{ width:688px; padding:20px 24px; float:right}
+.daohang{ height:31px; background:url(../Images/dq_bg.png); padding-left:80px}
+.daohang a{ line-height:30px}
+.leirong{font-size:14px;line-height:200%; min-height:550px;_height:550px}
+.news2{ clear:both;padding-top:10px}
+.news2 li{ background:url(../Images/ny_ico.png) no-repeat left center; padding-left:15px; line-height:25px}
+.news2 li a{color:#2a2a2a}
+.news2 .dt{ float:right; color:#2a2a2a}
+div.fy{display:block;line-height:20px; margin:0 auto; height:20px; width:100%; text-align:center; color:#999;}
+div.fy a{color:#a61108;}
+.conbox{ padding-top:8px}
+.conbox h2{ text-align:center; margin:10px 0; width:100%;font:bold 20px "\5B8B\4F53"}
+.meiti{ text-align:center;font:bold 16px "\5B8B\4F53"}
+.fubiaot{ text-align:center;font:bold 18px "\5B8B\4F53"}
+.conbox .time{ text-align:center; width:100%}
+.jp{ position:relative; top:3px}
+.firnedLink{ width:90%; border:1px solid #999; margin:5px 10px}

@@ -1,2 +1,3 @@
 # web-schedule-course
-:school:基于ASP.NET和SQL Server数据库开发的排课系统(web开发课程设计)
+本排课系统是基于 B/S 结构和 .NET 开发平台，采用微软的ASP.NET动态网页开发技术来设计与实现系统的的网页部分，采用SQL Server 数据库开发设计后台的数据库支持，最终实现整个排课系统。排课算法采用类似贪婪搜索、禁忌搜索等搜索算法。
+

@@ -1,0 +1,154 @@
+
+/*=====================网站后台登陆样式==========================*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 22px;
+	background-image: url(../Images/top_bg1.jpg);
+	background-repeat: repeat-x;
+}
+#top
+{
+	height: 111px;
+	background-image: url(../Images/top_img.jpg);
+	margin: auto;
+	width: 1000px;
+}
+#login
+{
+	background-image: url(../Images/login_bg.jpg);
+	height: 268px;
+	width: 886px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#login_box
+{
+	height: 370px;
+	width: 320px;
+	position: absolute;
+	margin-top: -53px;
+	margin-left: 530px;
+}
+#login_box .title
+{
+	background-image: url(../Images/login_box_title.jpg);
+	height: 42px;
+	width: 320px;
+}
+#login_box .content
+{
+	height: 328px;
+	background-image: url(../Images/login_box_bg.jpg);
+}
+#login_box .content .left
+{
+	background-image: url(../Images/login_box_left.jpg);
+	height: 328px;
+	width: 10px;
+	float: left;
+	overflow: hidden;
+}
+#login_box .content .main
+{
+	height: 328px;
+	float: left;
+	width: 300px;
+}
+#login_box .content .right
+{
+	height: 328px;
+	width: 10px;
+	float: left;
+	background-image: url(../Images/login_box_right.jpg);
+}
+#login_form
+{
+	padding: 20px;
+	margin: 0px;
+}
+#login_form div
+{
+	height: 30px;
+	clear: both;
+	margin-top: 10px;
+}
+#login_form div span
+{
+	float: left;
+	line-height: 30px;
+}
+#login_form .input
+{
+	border: 1px solid #B1B4C7;
+	height: 24px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-top: 2px;
+	line-height: 24px;
+}
+#userid, #password
+{
+	width: 180px;
+}
+#code
+{
+	width: 80px;
+	text-align:center;
+	font-weight:bold;
+}
+#login_form .login_button
+{
+	text-align: center;
+}
+#login_form #submit
+{
+	background: url(../Images/login_submit.jpg);
+	height: 25px;
+	width: 59px;
+	border: none;
+	cursor:pointer;
+}
+#login_form #reset
+{
+	background: url(../Images/login_reset.jpg);
+	height: 25px;
+	width: 59px;
+	border: none;
+	cursor:pointer;
+}
+#login_box .note
+{
+	background-image: url(../Images/login_box_line.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #666;
+	margin: auto;
+	padding-top: 35px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+#foot
+{
+	background-image: url(../Images/foot_bg.jpg);
+	height: 68px;
+	margin-top: 60px;
+	text-align: center;
+	color: #999;
+	line-height: 35px;
+	padding-top: 10px;
+}
+#foot p{ margin:0px; padding:0px; height:20px; line-height:20px;}
+
+#getcode_img{ cursor: pointer; margin-left:3px; margin-top:2px;  height: 25px; width: 60px; vertical-align:bottom;}
+
+#msg_tip{ color:#ff3600;}
+
+.aspNetHidden {       display:none; } 
